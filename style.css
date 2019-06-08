@@ -61,26 +61,24 @@
     transition: 0.5s; 
 }
   
-  /* Position the content inside the overlay */
 .overlay-content {
     position: relative;
-    top: 25%; /* 25% from the top */
-    width: 100%; /* 100% width */
-    text-align: center; /* Centered text/links */
-    margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+    top: 25%; 
+    width: 100%; 
+    text-align: center; 
+    margin-top: 30px; 
 }
   
-  /* The navigation links inside the overlay */
 .overlay a {
     padding: 8px;
     text-decoration: none;
     font-size: 36px;
     color: #818181;
-    display: block; /* Display block instead of inline */
-    transition: 2.0s; /* Transition effects on hover (color) */
+    display: block; 
+    transition: 2.0s; 
  }
   
-  /* When you mouse over the navigation links, change their color */
+
 .overlay a:hover, .overlay a:focus {
     color: #f1f1f1;
     background: grey;
@@ -192,4 +190,52 @@
 #souschef {
     background-image: url(assets/sousChef.png);
     -webkit-background-size: cover;
+}
+
+#train {
+    background-image: url(assets/trinschedule.jpg);
+    -webkit-background-size: cover;
+}
+
+#crystals {
+    background-image: url(assets/crystal.jpg);
+    -webkit-background-size: cover;
+}
+
+#ff {
+    background-image: url(assets/friendfinder.png);
+    -webkit-background-size: cover;
+}
+
+#burger {
+    background-image: url(assets/daburger.jpg);
+    -webkit-background-size: cover;
+}
+
+#gup {
+    background-image: url(assets/gassupimg.png);
+    -webkit-background-size: cover;
+}
+
+#conoptions {
+    display:none;
+}
+
+#contact:hover #conoptions {
+    display: inline;
+}
+
+#linkedin {
+    height:75px;
+    width:75px;
+}
+
+#github {
+    height:75px;
+    width: 75px;    
+}
+
+#resume {
+    height:75px;
+    width:75px;
 }
