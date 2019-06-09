@@ -53,6 +53,23 @@ $(document).ready(function() {
         clicked = false;
     }
 
+    $("#nav-about").on("click", function() {
+        console.log("howdy");
+        $("#info").css("display", "block")
+        closeNav();
+        
+    });
+
+    $("#nav-port").on("click", function() {
+        console.log("howdy");
+        closeNav();
+    });
+
+    $("#nav-contact").on("click", function() {
+        console.log("howdy");
+        closeNav();
+    })
+
 
     
 

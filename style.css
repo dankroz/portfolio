@@ -1,3 +1,10 @@
+.hero {
+    background-image: url(assets/juhb1.jpg);
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.9);
+    background-blend-mode: lighten;
+}
+
 .behigher {
     margin-top: 2%;
     margin-left: 1%;
@@ -46,6 +53,7 @@
     Font-Family: 'Cabin', Sans-Serif;
     Font-Size: 25px;
     padding-bottom: 10px;
+    font: whitesmoke;
 }
 
 
@@ -57,7 +65,7 @@
     left: 0;
     top: 0;
     background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0, 0.9); 
+    background-color: rgba(0,0,0, 0..5); 
     overflow-x: hidden; 
     transition: 0.5s; 
 }
@@ -106,13 +114,14 @@
 }
 
 #about {
-    width: 50%;
-    height: 25%;
+    margin-top: 7%;
+    /* width: 50%;
+    height: 25%; */
     /* background-image: linear-gradient(to bottom left, #0f2862, #091f36, #4f5f76); */
-    padding: 15%;
-    float: left;
+    /* padding: 15%; */
+    /* float: left; */
     text-align: center;
-    color: whitesmoke;
+    color: block;
     /* position: absolute; */
     
 }
@@ -122,42 +131,43 @@
 }
 
 #contact {
-    width: 50%;
-    height: 75%;
+    /* width: 50%;
+    height: 75%; */
     /* background-image: linear-gradient(to bottom left, #0f2862, #091f36, #4f5f76); */
-    float: right;
-    padding: 15%;
+    /* float: right; */
+    /* padding: 15%; */
     text-align: center;
-    color: whitesmoke;
+    color: black;
 }
 
 #portfolio {
     width: 100%;
     height: 100%;
     text-align: center;
-    color: white;
-    padding: 10%;
+    color: black;
     /* background-image: linear-gradient(to bottom left, #0f2862, #091f36, #4f5f76); */
 }
 
 .info {
     display: none;
-    float: left;
+    width: 75%;
+    height: 75%;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 #about:hover .info {
-    display: inline;
-    width: 100%;
-    height: 100%;
-    margin: 20%;
-    top: 10px;
-
+    display: block;
+    width: 75%;
+    height: 75%;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 #pic {
     border-radius: 25px;
-    height: 100%;
-    width: 25%;
+    height: 15%;
+    width: 15%;
     float: left;
 }
 
@@ -165,7 +175,7 @@
     display:flex;
     align-items:center;
     justify-content:center;
-    margin:5%;
+    margin:1%;
 }
 .box{
     padding:4%;
