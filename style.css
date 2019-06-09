@@ -50,10 +50,9 @@
 
 #name {
     text-align: center;
-    Font-Family: 'Cabin', Sans-Serif;
-    Font-Size: 25px;
-    padding-bottom: 10px;
-    font: whitesmoke;
+    Font-Family: 'Lobster', Sans-Serif;
+    Font-Size: 35px;
+    color: whitesmoke;
 }
 
 
@@ -90,7 +89,7 @@
 
 .overlay a:hover, .overlay a:focus {
     color: #f1f1f1;
-    background: grey;
+    /* background: grey; */
 }
   
 .overlay  {
@@ -114,7 +113,8 @@
 }
 
 #about {
-    margin-top: 7%;
+    padding-top: 6%;
+    margin-top: 5%;
     /* width: 50%;
     height: 25%; */
     /* background-image: linear-gradient(to bottom left, #0f2862, #091f36, #4f5f76); */
@@ -251,4 +251,17 @@
 #resume {
     height:75px;
     width:75px;
+}
+
+#art {
+    margin-left: 75%;
+}
+
+#ig-logo {
+    height: 10%;
+    width: 10%;
+}
+
+#exp {
+    font-family: "Comic Sans MS", cursive, sans-serif;  
 }
