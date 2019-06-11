@@ -1,4 +1,15 @@
+window.addEventListener("load", function(){
+    const loader = $(".loader");
+    loader.className += " hidden";
+});
+
 $(document).ready(function() {
+
+    setTimeout(function(){
+        $(".loader").remove();
+    }, 4000);
+
+
     var clicked = false;
     // hamburger menu
     $("#nav-toggle").on("click", function () {
@@ -55,7 +66,8 @@ $(document).ready(function() {
 
     $("#nav-about").on("click", function() {
         console.log("howdy");
-        $("#info").css("display", "block")
+        $(".info").css("display", "block")
+        $("#prof").css("display", "block")
         closeNav();
         
     });
@@ -70,9 +82,9 @@ $(document).ready(function() {
         closeNav();
     })
 
+    $("#font").on("click", () => $(".info").css("display", "block"));
 
+    $("")
     
-
-
 
 });
