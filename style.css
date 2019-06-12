@@ -214,7 +214,8 @@
 
 #crystals {
     background-image: url(assets/crystal.jpg);
-    -webkit-background-size: cover;
+    /* -webkit-background-size: cover; */
+    background-position: 0px;
 }
 
 #ff {
@@ -300,4 +301,19 @@
 @-webkit-keyframes signup-response{
     from {opacity :1;}
     to {opacity :0;}
+}
+
+#app-name,
+#app-code {
+    display: none;
+}
+
+
+
+.box-wrap:hover .box:hover #app-code{
+    display: block;
+}
+
+.box-wrap:hover .box:hover #app-name{
+    display: block;
 }

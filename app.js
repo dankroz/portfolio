@@ -80,6 +80,7 @@ $(document).ready(function() {
     $("#nav-contact").on("click", function() {
         console.log("howdy");
         closeNav();
+        $("#conoptions").css("display", "block")
     })
 
     $("#font").on("click", () => $(".info").css("display", "block"));
