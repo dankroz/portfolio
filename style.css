@@ -10,6 +10,11 @@
     margin-top: 2%;
     margin-left: 1%;
 }
+
+#email {
+    font-size: 16px;
+}
+
 /* Hamburger menu  */
 #nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
     cursor: pointer;
@@ -303,14 +308,16 @@
     to {opacity :0;}
 }
 
-#app-name,
+
+
+/* #app-name,
 #app-code {
     display: none;
     font-size: 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
+} */
 
-#app-name {
+/* #app-name {
     position: fixed;
     top: 2px;
     left: 4px;
@@ -330,4 +337,4 @@
 
 .box-wrap:hover .box:hover #app-name{
     display: block;
-}
+} */

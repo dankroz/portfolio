@@ -23,6 +23,10 @@
     <!-- fonts -->
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Cabin|Roboto:400,700|Roboto+Condensed:400,700" rel="stylesheet">
+    <!-- Modal Links -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+
     <title>Dan Kroszner</title>
 
 
@@ -59,12 +63,14 @@
                 </p>
 
                 <img id="pic" src="assets/profpic.jpg" alt="profile pic">
-                <p id="prof">Trading in tins and jiggers for front-end and back-end development. Finishing up an intensive 6 month program at the University 
-                    of Pennsylvania in Full Stack development. Added HTML, CSS, Javascript, Jquery, NodeJS, MySQL, Express, and MongoDB skills. Always learning
-                    and looking to get more in depth for the trade. </p>
-                <p>Born and raised in the Philadelphia area, I've worked traveling the country for a non-profit and in Colorado for 6 years managing a 
-                    wedding venue. Excited to be back in the Philly area close to family and friends while exploring the music and happenings.
-                </p>
+                <p id="prof">Web Developer with a background in management and customer service. In my previous
+                    management role I provided leadership, marketing materials, and customer service on a daily basis.
+                    Moved back to the Philadelphia area from Colorado to change career paths via the University of
+                    Pennsylvania Full Stack Web Development Program. Gained scopes in Node.js, React, Cheerio, MongoDB,
+                    Handlebars, MySQL, Javascript, JQuery, CSS, BootStrap, and HTML.
+
+                    With over 10 years of professional experience and my knowledge of collaboration, details and hard
+                    work I can add value to any team.</p>
             </div>
 
         </div>
@@ -73,57 +79,116 @@
             <h2 id="project-font" onclick="">Projects</h2>
             <div class="box-wrap" onclick="">
                 <div id="crystals" class="box"><a href="https://dankroz.github.io/unit-4-game/">
+                        <p><a href="#gassedup" rel="modal:open">More info</a></p>
                         <p id="app-name" style="color: white;"><strong>Crystals Game</strong></p>
                         <a href="https://github.com/dankroz/unit-4-game">
-                            <p id="app-code" style="color: white;"><strong>Code</strong></p>
+                            <p id="code" style="color: white;"><strong></strong></p>
                         </a>
                     </a>
+                    <div id="gassedup" class="modal">
+                        <p>This app allows a user to compare costs of a flight vs. a road trip. It uses Flight Tracker
+                            API, Toll Guru API, SkyPicker API, and scraping with Cheerio</p>
+                        <img id="app-img" src="assets/gassupimg.png" style="width: 100%; height: 50%;">
+                        <a href="https://github.com/afb5309/Project-2">
+                            <p id="code" style="margin-left: auto; margin-right: auto;"><strong>Code</strong></p>
+                        </a>
+                        <a href="#" rel="modal:close">Close</a>
+                    </div>
                 </div>
-                <a href="https://github.com/dankroz/unit-4-game">
-                            <p id="app-code">Code</p>
-                        </a>
+
                 <div id="train" class="box"><a href="https://dankroz.github.io/TrainGame/">
-                        <p id="app-name" style="color: black;"><strong>Train Scheduler</strong></p>
+                        <p><a href="#gassedup" rel="modal:open">More info</a></p>
+                        <p id="app-name" style="color: black;"><strong></strong></p>
                         <a href="https://github.com/dankroz/TrainGame">
-                            <p id="app-code" style="color: black;"><strong>Code</strong></p>
-                        </a>
-                </div></a>
-                <div id="souschef" class="box"><a href="https://klcosta.github.io/souscheckbackupv2/index.html">
-                        <p id="app-name" style="color: white;"><strong>Sous Chef</strong></p>
-                        <a href="https://github.com/Klcosta/souscheckbackupv2">
-                            <p id="app-code" style="color: white;"><strong>Code</strong></p>
+                            <p id="code" style="color: black;"><strong></strong></p>
                         </a>
                     </a>
+                    <div id="gassedup" class="modal">
+                        <p>This app allows a user to compare costs of a flight vs. a road trip. It uses Flight Tracker
+                            API, Toll Guru API, SkyPicker API, and scraping with Cheerio</p>
+                        <img id="app-img" src="assets/gassupimg.png" style="width: 100%; height: 50%;">
+                        <a href="https://github.com/afb5309/Project-2">
+                            <p id="code" style="margin-left: auto; margin-right: auto;"><strong>Code</strong></p>
+                        </a>
+                        <a href="#" rel="modal:close">Close</a>
+                    </div>
+                </div>
+                <div id="souschef" class="box"><a href="https://klcosta.github.io/souscheckbackupv2/index.html">
+                        <p><a href="#gassedup" rel="modal:open">More info</a></p>
+                        <p id="app-name" style="color: white;"><strong></strong></p>
+                        <a href="https://github.com/Klcosta/souscheckbackupv2">
+                            <p id="code" style="color: white;"><strong></strong></p>
+                        </a>
+                    </a>
+                    <div id="gassedup" class="modal">
+                        <p>This app allows a user to compare costs of a flight vs. a road trip. It uses Flight Tracker
+                            API, Toll Guru API, SkyPicker API, and scraping with Cheerio</p>
+                        <img id="app-img" src="assets/gassupimg.png" style="width: 100%; height: 50%;">
+                        <a href="https://github.com/afb5309/Project-2">
+                            <p id="code" style="margin-left: auto; margin-right: auto;"><strong>Code</strong></p>
+                        </a>
+                        <a href="#" rel="modal:close">Close</a>
+                    </div>
                 </div>
             </div>
 
             <div class="box-wrap">
                 <div id="ff" class="box"><a href="https://mysterious-lake-86954.herokuapp.com/">
-                        <p id="app-name">Friend Finder</p>
+                        <p><a href="#gassedup" rel="modal:open">More info</a></p>
+                        <p id="app-name"></p>
                         <a href="https://github.com/dankroz/FriendFinder">
-                            <p id="app-code">Code</p>
+                            <p id="code"></p>
                         </a>
                     </a>
+                    <div id="gassedup" class="modal">
+                        <p>This app allows a user to compare costs of a flight vs. a road trip. It uses Flight Tracker
+                            API, Toll Guru API, SkyPicker API, and scraping with Cheerio</p>
+                        <img id="app-img" src="assets/gassupimg.png" style="width: 100%; height: 50%;">
+                        <a href="https://github.com/afb5309/Project-2">
+                            <p id="code" style="margin-left: auto; margin-right: auto;"><strong>Code</strong></p>
+                        </a>
+                        <a href="#" rel="modal:close">Close</a>
+                    </div>
                 </div>
                 <div id="burger" class="box"><a href="https://peaceful-garden-55827.herokuapp.com/">
-                        <p id="app-name" style="color: white;"><strong>Eat Da Burger</strong></p>
+                        <p><a href="#gassedup" rel="modal:open">More info</a></p>
+                        <p id="app-name" style="color: white;"><strong></strong></p>
                         <a href="https://github.com/dankroz/burger">
-                            <p id="app-code" style="color: white;"><strong>Code</strong></p>
+                            <p id="code" style="color: white;"><strong></strong></p>
                         </a>
                     </a>
+                    <div id="gassedup" class="modal">
+                        <p>This app allows a user to compare costs of a flight vs. a road trip. It uses Flight Tracker
+                            API, Toll Guru API, SkyPicker API, and scraping with Cheerio</p>
+                        <img id="app-img" src="assets/gassupimg.png" style="width: 100%; height: 50%;">
+                        <a href="https://github.com/afb5309/Project-2">
+                            <p id="code" style="margin-left: auto; margin-right: auto;"><strong>Code</strong></p>
+                        </a>
+                        <a href="#" rel="modal:close">Close</a>
+                    </div>
                 </div>
                 <div id="gup" class="box"><a href="https://gentle-hamlet-50272.herokuapp.com/">
-                        <p id="app-name" style="color: white;"><strong>Gassed Up</strong></p>
-                        <a href="https://github.com/afb5309/Project-2">
-                            <p id="app-code" style="color: white;"><strong>Code</strong></p>
-                        </a>
+                        <p><a href="#gassedup" rel="modal:open">More info</a></p>
+                        <p id="app-name" style="color: white;"><strong></strong></p>
+
                     </a>
+                    <div id="gassedup" class="modal">
+                        <p>This app allows a user to compare costs of a flight vs. a road trip. It uses Flight Tracker
+                            API, Toll Guru API, SkyPicker API, and scraping with Cheerio</p>
+                        <img id="app-img" src="assets/gassupimg.png" style="width: 100%; height: 50%;">
+                        <a href="https://github.com/afb5309/Project-2">
+                            <p id="code" style="margin-left: auto; margin-right: auto;"><strong>Code</strong></p>
+                        </a>
+                        <a href="#" rel="modal:close">Close</a>
+                    </div>
                 </div>
             </div>
         </div>
         <div id="contact" class="container-fluid">
             <h2 id="contact-font" onclick="">Contact</h2>
             <div id="conoptions">
+                <div><a id="email" href="mailto:dankroz@gmail.com">dankroz@gmail.com</a></div>
+                <br>
                 <a href="https://github.com/dankroz"><img id="github" src="assets/github-icon.svg"></a>
                 <a href="https://www.linkedin.com/in/dan-kroszner-31033252/"><img id="linkedin"
                         src="assets/linkedin-icon.png"></a>
@@ -132,13 +197,19 @@
 
         </div>
 
-    
+
+
+
+
 
         <div id="art">
-            <a href="https://www.instagram.com/juhhhb/?hl=en"><p id="exp">Background art provided by Juhhb: <img id="ig-logo" src="assets/ig-logo-email.png" alt="instagram logo"></p></a>    
+            <a href="https://www.instagram.com/juhhhb/?hl=en">
+                <p id="exp">Background art provided by Juhhb: <img id="ig-logo" src="assets/ig-logo-email.png"
+                        alt="instagram logo"></p>
+            </a>
         </div>
 
-    </div>
+    </div>1
 
 </body>
 
