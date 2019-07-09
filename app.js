@@ -69,7 +69,7 @@ $(document).ready(function() {
         $(".info").css("display", "block")
         $("#prof").css("display", "block")
         closeNav();
-        
+        console.log(clicked)
     });
 
     $("#nav-port").on("click", function() {
@@ -84,8 +84,6 @@ $(document).ready(function() {
     })
 
     $("#font").on("click", () => $(".info").css("display", "block"));
-
-    $("")
     
 
 });

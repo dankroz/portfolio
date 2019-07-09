@@ -308,6 +308,14 @@
     to {opacity :0;}
 }
 
+#crystalImg {
+    height:325px;
+    width:100%;
+}
+
+.modal {
+    margin-top: 5%;
+}
 
 
 /* #app-name,
