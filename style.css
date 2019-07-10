@@ -1,4 +1,3 @@
-
 .hero {
     background-image: url(assets/juhb1.jpg);
     background-size: cover;
@@ -16,6 +15,7 @@
 }
 
 /* Hamburger menu  */
+
 #nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
     cursor: pointer;
     border-radius: 1px;
@@ -26,25 +26,31 @@
     display: block;
     content: '';
 }
+
 #nav-toggle span:before {
     top: -10px;
 }
+
 #nav-toggle span:after {
-    bottom: -10px; 
+    bottom: -10px;
 }
 
 #nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
     transition: all 500ms ease-in-out;
 }
+
 #nav-toggle.active span {
     background-color: transparent;
 }
+
 #nav-toggle.active span:before, #nav-toggle.active span:after {
     top: 0;
 }
+
 #nav-toggle.active span:before {
     transform: rotate(45deg);
 }
+
 #nav-toggle.active span:after {
     transform: rotate(-45deg);
 }
@@ -61,56 +67,60 @@
     color: whitesmoke;
 }
 
-
-.overlay { 
+.overlay {
     height: 100%;
     width: 0;
     position: fixed;
-    z-index: 1; 
+    z-index: 1;
     left: 0;
     top: 0;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0, 0..5); 
-    overflow-x: hidden; 
-    transition: 0.5s; 
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0..5);
+    overflow-x: hidden;
+    transition: 0.5s;
 }
-  
+
 .overlay-content {
     position: relative;
-    top: 25%; 
-    width: 100%; 
-    text-align: center; 
-    margin-top: 30px; 
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
 }
-  
+
 .overlay a {
     padding: 8px;
     text-decoration: none;
     font-size: 36px;
     color: #818181;
-    display: block; 
-    transition: 2.0s; 
- }
-  
+    display: block;
+    transition: 2.0s;
+}
 
 .overlay a:hover, .overlay a:focus {
     color: #f1f1f1;
     /* background: grey; */
 }
-  
-.overlay  {
+
+.overlay {
     position: absolute;
     top: 20px;
     right: 45px;
     font-size: 60px;
 }
-  
-@media screen and (max-height: 450px) {
-    .overlay a {font-size: 20px}
+
+@media screen and (max-height: 500px) {
+    .overlay a {
+        font-size: 20px
+    }
     .overlay {
-      font-size: 40px;
-      top: 15px;
-      right: 35px;
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+
+    .box {
+        width: 450px;
     }
 }
 
@@ -129,13 +139,11 @@
     text-align: center;
     color: block;
     /* position: absolute; */
-    
 }
-#contact-font, 
-#about-font,
-#project-font {
+
+#contact-font, #about-font, #project-font {
     font-size: 45px;
-    font-family: 'Lobster',  cursive;
+    font-family: 'Lobster', cursive;
 }
 
 #contact {
@@ -179,33 +187,37 @@
     float: left;
 }
 
-.box-wrap{
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    margin:1%;
+.box-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1%;
 }
-.box{
-    padding:4%;
-    margin:2%;
-    background:white;
-    width:35%;
-    border:1px solid #d6d6d6;
-    box-shadow:0 2px 3px 0px rgba(0,0,0,0.25);
-    border-radius:3px;
-    transition:.2s all; 
+
+.box {
+    padding: 1%;
+    height: 150px;
+    margin: 2%;
+    background: white;
+    width: 35%;
+    border: 1px solid #d6d6d6;
+    box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+    transition: .2s all;
 }
-.box-wrap:hover .box{
-    filter:blur(3px);
-    opacity:.5;
+
+.box-wrap:hover .box {
+    filter: blur(3px);
+    opacity: .5;
     transform: scale(.98);
-    box-shadow:none;
+    box-shadow: none;
 }
-.box-wrap:hover .box:hover{
-    transform:scale(1);
-    filter:blur(0px);
-    opacity:1;
-    box-shadow:0 25px 20px 0px rgba(0,0,0,0.125);
+
+.box-wrap:hover .box:hover {
+    transform: scale(1);
+    filter: blur(0px);
+    opacity: 1;
+    box-shadow: 0 25px 20px 0px rgba(0, 0, 0, 0.125);
 }
 
 #souschef {
@@ -239,7 +251,7 @@
 }
 
 #conoptions {
-    display:none;
+    display: none;
 }
 
 #contact:hover #conoptions {
@@ -247,18 +259,18 @@
 }
 
 #linkedin {
-    height:75px;
-    width:75px;
+    height: 75px;
+    width: 75px;
 }
 
 #github {
-    height:75px;
-    width: 75px;    
+    height: 75px;
+    width: 75px;
 }
 
 #resume {
-    height:75px;
-    width:75px;
+    height: 75px;
+    width: 75px;
 }
 
 #art {
@@ -271,7 +283,7 @@
 }
 
 #exp {
-    font-family: "Comic Sans MS", cursive, sans-serif;  
+    font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
 .loader {
@@ -286,37 +298,47 @@
     align-items: center;
 }
 
-.loader > img {
+.loader>img {
     width: 100%;
-    animation:signup-response 2.5s 1;
-    -webkit-animation:signup-response 2.5s 1;
+    animation: signup-response 2.5s 1;
+    -webkit-animation: signup-response 2.5s 1;
     animation-fill-mode: forwards;
-
-    animation-delay:2.5s;
-    -webkit-animation-delay:2.7s; /* Safari and Chrome */
+    animation-delay: 2.5s;
+    -webkit-animation-delay: 2.7s;
+    /* Safari and Chrome */
     -webkit-animation-fill-mode: forwards;
-
-} 
-
-@keyframes signup-response{
-    from {opacity :1;}
-    to {opacity :0;}
 }
 
-@-webkit-keyframes signup-response{
-    from {opacity :1;}
-    to {opacity :0;}
+@keyframes signup-response {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes signup-response {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
 }
 
 #crystalImg {
-    height:325px;
-    width:100%;
+    height: 325px;
+    width: 100%;
 }
 
 .modal {
     margin-top: 5%;
 }
 
+#anchor {
+    float: left;
+}
 
 /* #app-name,
 #app-code {
@@ -346,3 +368,4 @@
 .box-wrap:hover .box:hover #app-name{
     display: block;
 } */
+

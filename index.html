@@ -78,112 +78,87 @@
         <div id="portfolio">
             <h2 id="project-font" onclick="">Projects</h2>
             <div class="box-wrap" onclick="">
-                <div id="crystals" class="box"><a href="https://dankroz.github.io/unit-4-game/">
-                        
-                        <p id="app-name" style="color: white;"><strong>Crystals Game</strong></p>
-                        <a href="https://github.com/dankroz/unit-4-game">
-                            <p id="code" style="color: white;"><strong></strong></p>
-                        </a>
+                <div id="crystals" class="box">
+                    <a id="anchor" href="#crystalmodal" rel="modal:open">
+                        <button><span class="glyphicon glyphicon-plus"></span></button>
                     </a>
-                    <div id="crystalmodal" class="modal" >
+                    <div id="crystalmodal" class="modal">
                         <p>Each time the game is played the crystals are assigned different values. The user must
-                            click the crystals to get to the total that is randomly determined. 
+                            click the crystals to get to the total that is randomly determined.
                         </p>
                         <img id="crystalImg" src="assets/crystal.jpg">
-                        <a href="https://github.com/dankroz/unit-4-game">
-                            <p id="code" style="margin-left: auto; margin-right: auto;"><strong>Code</strong></p>
-                        </a>
-                        <a href="https://dankroz.github.io/unit-4-game/">
-                            <p id="code" style="margin-left: auto; margin-right: auto;"><strong>Game</strong></p>
-                        </a>
-                        <a href="#" rel="modal:close">Close</a>
+                        <a href="https://github.com/dankroz/unit-4-game" style="padding-left: 5%;" >Code</a>
+                        <a href="https://dankroz.github.io/unit-4-game/" style="padding-left: 30%;">Game</a>
+                        <a href="#" rel="modal:close" style="padding-left: 30%;">Close</a>
                     </div>
-                    <p><a href="#crystalmodal" rel="modal:open">More info</a></p>
                 </div>
 
-                <div id="train" class="box"><a href="https://dankroz.github.io/TrainGame/">
-                        <p><a href="#training" rel="modal:open">More info</a></p>
-                        <p id="app-name" style="color: black;"><strong></strong></p>
-                        <a href="https://github.com/dankroz/TrainGame">
-                            <p id="code" style="color: black;"><strong></strong></p>
-                        </a>
-                    </a>
+                <div id="train" class="box">
+                    <a id="anchor" href="#training" rel="modal:open"><button><span class="glyphicon glyphicon-plus"></span></button></a>
                     <div id="training" class="modal">
-                        <p>This app uses Firebase to store Train run times and frequency. The user can see how 
+                        <p>This app uses Firebase to store Train run times and frequency. The user can see how
                             long it wil be until the next train arrives.</p>
                         <img id="app-img" src="assets/trinschedule.jpg" style="width: 100%; height: 50%;">
-                        <a href="https://github.com/afb5309/Project-2">
-                            <p id="code" style="margin-left: auto; margin-right: auto;"><strong>Code</strong></p>
-                        </a>
-                        <a href="#" rel="modal:close">Close</a>
+                        <a href="https://github.com/dankroz/TrainGame" style="padding-left: 5%;">Code</a>
+                        <a href="https://dankroz.github.io/TrainGame/" style="padding-left: 30%;">Site</a>
+                        <a href="#" rel="modal:close" style="padding-left: 30%;">Close</a>
                     </div>
                 </div>
-                <div id="souschef" class="box"><a href="https://klcosta.github.io/souscheckbackupv2/index.html">
-                        <p><a href="#sous" rel="modal:open">More info</a></p>
-                        <p id="app-name" style="color: white;"><strong></strong></p>
-                        <a href="https://github.com/Klcosta/souscheckbackupv2">
-                            <p id="code" style="color: white;"><strong></strong></p>
-                        </a>
-                    </a>
+
+                <div id="souschef" class="box">
+                    <a id="anchor" href="#sous" rel="modal:open"><button><span class="glyphicon glyphicon-plus"></span></button></a>
                     <div id="sous" class="modal">
-                        <p>First Group project, gives recipe suggestions to a user based on food they would like to eat. 
-                            Uses API calls to generate recipe selections. Authentication via Firestore will be cleaned up soon!
+                        <p>First Group project, gives recipe suggestions to a user based on food they would like to eat.
+                            Uses API calls to generate recipe selections. Authentication via Firestore will be cleaned
+                            up soon!
                         </p>
                         <img id="app-img" src="assets/sousChef.png" style="width: 100%; height: 50%;">
-                        <a href="https://github.com/afb5309/Project-2">
-                            <p id="code" style="margin-left: auto; margin-right: auto;"><strong>Code</strong></p>
-                        </a>
-                        <a href="#" rel="modal:close">Close</a>
+                        <a href="https://github.com/Klcosta/souscheckbackupv2" style="padding-left: 5%;">Code</a>
+                        <a href="https://klcosta.github.io/souscheckbackupv2/index.html" style="padding-left: 30%;">Site</a>
+                        <a href="#" rel="modal:close" style="padding-left: 30%;">Close</a>
                     </div>
                 </div>
             </div>
 
             <div class="box-wrap">
-                <div id="ff" class="box"><a href="https://mysterious-lake-86954.herokuapp.com/">
-                        <p><a href="#survey" rel="modal:open">More info</a></p>
-                        <p id="app-name"></p>
-                        <a href="https://github.com/dankroz/FriendFinder">
-                            <p id="code"></p>
-                        </a>
-                    </a>
+
+                <div id="ff" class="box">
+                    <a id="anchor" href="#survey" rel="modal:open"><button><span class="glyphicon glyphicon-plus"></span></button></a>
                     <div id="survey" class="modal">
-                        <p>Surveys client with questions and checks database to see what other user that the client closest matches.
-                            Uses Express. 
+                        <p>Surveys client with questions and checks database to see what other user that the client
+                            closest matches.
+                            Uses Express.
                         </p>
                         <img id="app-img" src="assets/friendfinder.png" style="width: 100%; height: 50%;">
-                        <a href="https://github.com/afb5309/Project-2">
-                            <p id="code" style="margin-left: auto; margin-right: auto;"><strong>Code</strong></p>
-                        </a>
-                        <a href="#" rel="modal:close">Close</a>
+                        <a href="https://github.com/dankroz/FriendFinder" style="padding-left: 5%;">Code</a>
+                        <a href="https://mysterious-lake-86954.herokuapp.com/" style="padding-left: 30%;">Site</a>
+                        <a href="#" rel="modal:close" style="padding-left: 30%;">Close</a>
                     </div>
                 </div>
-                <div id="burger" class="box"><a href="https://peaceful-garden-55827.herokuapp.com/">
-                        <p><a href="#burgers" rel="modal:open">More info</a></p>
-                        <p id="app-name" style="color: white;"><strong></strong></p>
-                        <a href="https://github.com/dankroz/burger">
-                            <p id="code" style="color: white;"><strong></strong></p>
-                        </a>
-                    </a>
-                    <div id="burgers" class="modal">
-                        <p>Uses SQL, MySQL to store burgers and whether they have been eaten or not. Client has ability to add new burgers.</p>
-                        <img id="app-img" src="assets/daburger.jpg" style="width: 100%; height: 50%;">
-                        <a href="https://github.com/afb5309/Project-2">
-                            <p id="code" style="margin-left: auto; margin-right: auto;"><strong>Code</strong></p>
-                        </a>
-                        <a href="#" rel="modal:close">Close</a>
-                    </div>
-                </div>
-                <div id="gup" class="box"><a href="https://gentle-hamlet-50272.herokuapp.com/">
-                        <p><a href="#gassedup" rel="modal:open">More info</a></p>
-                        <p id="app-name" style="color: white;"><strong></strong></p>
 
-                    </a>
+                <div  id="burger" class="box">
+                    <a id="anchor" href="#burgers" rel="modal:open"><button><span class="glyphicon glyphicon-plus"></span></button></a>
+                    <p id="app-name" style="color: white;"><strong></strong></p>
+                    <div id="burgers" class="modal">
+                        <p>Uses SQL, MySQL to store burgers and whether they have been eaten or not. Client has ability
+                            to add new burgers.</p>
+                        <img id="app-img" src="assets/daburger.jpg" style="width: 100%; height: 50%;">
+                        <a href="https://github.com/dankroz/burger" style="padding-left: 5%;">Code</a>
+                        <a href="https://peaceful-garden-55827.herokuapp.com/" style="padding-left: 30%;">Site</a>
+                        <a href="#" rel="modal:close" style="padding-left: 30%;">Close</a>
+                    </div>
+                </div>
+
+                <div id="gup" class="box">
+                    <a id="anchor" href="#gassedup" rel="modal:open"><button><span class="glyphicon glyphicon-plus"></span></button></a>
+                    <p id="app-name" style="color: white;"><strong></strong></p>
                     <div id="gassedup" class="modal">
                         <p>This app allows a user to compare costs of a flight vs. a road trip. It uses Flight Tracker
                             API, Toll Guru API, SkyPicker API, and scraping with Cheerio</p>
                         <img id="app-img" src="assets/gassupimg.png" style="width: 100%; height: 50%;">
-                        <p href="https://github.com/afb5309/Project-2" id="code" style="margin-left: auto; margin-right: auto;">Code</p>
-                        <a href="#" rel="modal:close">Close</a>
+                        <a href="https://github.com/afb5309/Project-2" style="padding-left: 5%;">Code</a>
+                        <a href="https://gentle-hamlet-50272.herokuapp.com/" style="padding-left: 30%;">Site</a>
+                        <a href="#" rel="modal:close" style="padding-left: 30%;">Close</a>
                     </div>
                 </div>
             </div>
@@ -213,7 +188,7 @@
             </a>
         </div>
 
-    </div>1
+    </div>
 
 </body>
 
